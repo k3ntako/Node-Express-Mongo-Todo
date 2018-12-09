@@ -4,10 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server/server.js",
     "test": "mocha server/**/*.test.js",
     "test-watch": "nodemon --exec 'npm test'",
     "dev": "webpack-dev-server --env.dev",
     "build": "webpack"
+  },
+  "engines": {
+    "node": "10.14.0"
   },
   "author": "",
   "license": "ISC",
